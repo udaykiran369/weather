@@ -1,0 +1,54 @@
+.title{
+    background-color: #bfc1c8;
+}
+.title h2{
+    display: inline-block;
+}
+.title p{
+    display: inline-block;
+}
+.navi{
+    position:sticky;
+    top: 0px;
+}
+.navi ul li{
+    display: inline-block;
+    padding: 15px;
+}
+.navi ul li:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+#loc{
+    background-color: black;
+    width: 60%;
+}
+.home{
+    padding: 20px;
+    background-image: url("background.jpg");
+    height: 250px;
+}
+.live_cameras{
+    background-color:  #360fa111;
+}
+.videos{
+    margin: 20px;
+    padding: 30px;
+    width: 30%;
+    
+}
+.images{
+    width: 50px;
+    height: 50px;
+    border:solid black;
+    border-radius: 2px;
+}
+.time{
+    background-color: #262936;
+}
+@media screen and (max-width:700px){
+    #loc{
+        width:80%;
+        background-color: chartreuse;
+    }
+}
